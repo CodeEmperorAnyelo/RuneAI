@@ -1,0 +1,15 @@
+# Ignorar el archivo .env en backend y frontend
+backend/.env
+frontend/.env
+
+# Ignorar node_modules en ambos
+backend/node_modules/
+frontend/node_modules/
+
+# Ignorar archivos de salida de compilación
+backend/dist/
+frontend/.next/
+
+# Ignorar archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db

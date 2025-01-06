@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "rootDir": "./",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "resolveJsonModule": true,
+      "allowJs": true,          // Permite archivos .js en la compilación
+      "checkJs": false          // Evita comprobar errores de tipo en archivos .js
+    },
+    "include": ["**/*"],         // Incluye todos los archivos en el directorio
+    "exclude": ["node_modules", "dist"]
+  }
+  
